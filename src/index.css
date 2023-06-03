@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 5px solid black;
+    width: 80rem;
+    margin-left: 5rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.names-container {
+  border: 5px solid gray;
+  width: 75rem;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.boy {
+  background-color: blue;
+  color: white;
+
+}
+
+.girl {
+  background-color: pink;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.filter-buttons {
+  /* border: 5px solid red; */
+  width: 15rem;
+  margin-left: 40rem;
+  margin-top: -1.4rem;
+}
+
+.search-bar {
+  /* border: 5px solid blue; */
+  width: 15rem;
+  margin-left: 30rem;
+}
+
+.favourites-container {
+  border-bottom: 5px solid pink;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
