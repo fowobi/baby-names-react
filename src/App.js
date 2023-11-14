@@ -68,6 +68,10 @@ const App = () => {
           Girls
         </button>
       </div>
+      <Favourites
+        favourites={favourites}
+        handleRemoveFromFavourites={handleRemoveFromFavourites}
+      />
       <div className="names-container">
         {filteredNamesWithGenderFilter.map((name) => (
           <div
@@ -79,10 +83,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <Favourites
-        favourites={favourites}
-        handleRemoveFromFavourites={handleRemoveFromFavourites}
-      />
+     
     </div>
   );
 };
